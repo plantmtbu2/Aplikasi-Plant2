@@ -1,0 +1,6 @@
+{
+  "name": "REPORTING PLANT2",
+  "description": "Sistem Informasi Manajemen Pelaporan Plant & Maintenance Alat Berat (Rigid, Artic, BAP, Backlog, Master Unit) dengan Sneat Bootstrap Admin Dashboard & Supabase",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

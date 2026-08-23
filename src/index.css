@@ -1,0 +1,66 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "./assets/sneat.css";
+
+/* App Specific Global Helpers */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-xs {
+  font-size: 0.75rem !important;
+}
+
+.font-mono {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+
+.transition-all {
+  transition: all 0.25s ease-in-out;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #696cff;
+}
+
+.modal-content {
+  background-color: var(--sneat-card-bg);
+  border: 1px solid var(--sneat-card-border);
+  border-radius: 0.5rem;
+}
+
+.modal-header, .modal-footer {
+  border-color: var(--sneat-card-border);
+}
+
+.form-control, .form-select {
+  border-color: var(--sneat-border-color);
+  background-color: var(--sneat-card-bg);
+  color: var(--bs-body-color);
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #696cff;
+  box-shadow: 0 0 0 0.2rem rgba(105, 108, 255, 0.2);
+  background-color: var(--sneat-card-bg);
+  color: var(--bs-body-color);
+}
+
+.dark-style .form-control, .dark-style .form-select {
+  background-color: #2b2c40;
+  border-color: #444564;
+  color: #a3a4cc;
+}
+
+.dark-style .dropdown-menu {
+  background-color: #2b2c40;
+  border-color: #444564;
+}
+
+.dark-style .dropdown-item {
+  color: #a3a4cc;
+}
+
+.dark-style .dropdown-item:hover {
+  background-color: rgba(105, 108, 255, 0.15);
+  color: #696cff;
+}
